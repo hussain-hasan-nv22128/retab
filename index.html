@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>سلة التمر القابلة للنقر</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #ab5310;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      position: relative;
+      width: 95%;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      border-radius: 16px;       /* نصف قطر الزوايا للحاوية */
+      overflow: hidden;  
+      
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .image-wrapper {
+      position: relative;
+    }
+    .image-wrapper img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 12px; 
+     
+    }
+    /* tooltip style */
+    #tooltip {
+      position: absolute;
+      display: none;
+      padding: 6px 10px;
+      background: #d86e1c;
+      color: #fff;
+      font-size: 0.9em;
+      border-radius: 4px;
+      pointer-events: none;
+      white-space: nowrap;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>اضغط على أي “رطبة” لفتح الكتاب</h1>
+    <div class="image-wrapper">
+      <!-- غيّر src إلى مسار صورتك الفعلي -->
+      <img src="basket‑of‑dates.jpeg" alt="سلة تمر" usemap="#dates-map">
+      <map name="dates-map">
+        <area shape="circle" coords="230,410,35"
+              href="https://qr.me-qr.com/mobile/pdf/8da48157-fefb-4f29-85f1-922182a21450"
+              data-title="ذكاء اصطناعي متوافق مع البشر"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="330,443,35"
+              href="https://qr.me-qr.com/mobile/pdf/a9111939-87d3-4bdb-905b-bfbc2b128f47"
+              data-title="أشياء لن تستطيع أن تتخيلها"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="476,425,35"
+              href="https://qr.me-qr.com/mobile/pdf/aff2c54b-4097-495a-9dcd-78b7e3838cce"
+              data-title="الرجال من المريخ النساء من الزهرة"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="612,450,35"
+              href="https://qr.me-qr.com/mobile/pdf/ae4a65f5-4ecd-43e5-8eb2-c1a83a22d8e0"
+              data-title="ألف اختراع واختراع"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="735,430,35"
+              href="https://qr.me-qr.com/mobile/pdf/28dbbbb5-a0d3-44be-bdb8-93231a408d03"
+              data-title="القط الأسود"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="800,380,35"
+              href="https://qr.me-qr.com/mobile/pdf/69e0e2ea-0c31-4bf5-a9b1-78ecd295407a"
+              data-title="حول العالم في ٨٠ يوماً"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="260,312,35"
+              href="https://qr.me-qr.com/mobile/pdf/ac35cd90-af1d-4004-baf4-e66c67946b48"
+              data-title="رجال في الشمس"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="303,356,35"
+              href="https://qr.me-qr.com/mobile/pdf/ea08855b-d566-48e1-83da-86c582a698e9"
+              data-title="الأرواح المتمردة"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="397,387,35"
+              href="https://qr.me-qr.com/mobile/pdf/a90272b1-1cc3-432d-91b2-d63fe91ec40c"
+              data-title="الرقص مع الحياة"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="580,382,35"
+              href="https://qr.me-qr.com/mobile/pdf/817e92ce-d418-4896-90a9-1520ab601e9e"
+              data-title="الفيل الأزرق"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="680,326,35"
+              href="https://qr.me-qr.com/mobile/pdf/488bde8e-d388-4ecc-bb05-e0b1f75239ef"
+              data-title="القنديل الصغير"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="740,290,35"
+              href="https://qr.me-qr.com/mobile/pdf/137608d0-c8e6-48e0-810ب-79363662a0c9"
+              data-title="دمعة وابتسامة"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="353,307,35"
+              href="https://qr.me-qr.com/mobile/pdf/68677f7d-d134-48e3-ad32-41129e151a77"
+              data-title="من الذي حرك قطعة الجبن الخاصة بي؟"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="470,331,35"
+              href="https://qr.me-qr.com/mobile/pdf/2a53a8f2-a59c-44e0-ba12-18c8155fe14f"
+              data-title="نظرية الفستق"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="590,316,35"
+              href="https://qr.me-qr.com/mobile/pdf/966c192c-2a9d-4e9f-9495-794a5f097884"
+              data-title="فاتتني صلاة"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="630,260,35"
+              href="https://qr.me-qr.com/mobile/pdf/b447be32-c1ee-4ba2-9797-12f733ec443e"
+              data-title="عائد إلى حيفا"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="521,253,35"
+              href="https://qr.me-qr.com/mobile/pdf/bf1dcef1-f07c-421c-8b21-6515ب34047ac"
+              data-title="لأنك الله"
+              target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="430,258,35"
+              href="https://qr.me-qr.com/mobile/pdf/de769325-1bb8-4167-8bb5-0432ب906bdd3"
+              data-title="كيف تكسب الأصدقاء"
+              target="_blank" rel="noopener noreferrer">
+        <!-- استبدل x19,y19 بالقيم التي تقيسها -->
+        <area shape="circle" coords="x19,y19,35"
+              href="https://qr.me-qr.com/mobile/pdf/37987d31-e0a9-492a-a2d7-75a919d5b7fe"
+              data-title="نظرية الفستق ٢"
+              target="_blank" rel="noopener noreferrer">
+        <!-- استبدل x20,y20 بالقيم التي تقيسها -->
+        <area shape="circle" coords="x20,y20,35"
+              href="https://qr.me-qr.com/mobile/pdf/f311c178-760f-49e1-8e9e-3dab6946a003"
+              data-title="غدا أجمل"
+              target="_blank" rel="noopener noreferrer">
+      </map>
+    </div>
+    <div id="tooltip"></div>
+  </div>
+
+  <!-- responsive image-map resizer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+  <script>
+    // إعادة ضبط mapa عند التحجيم
+    imageMapResize();
+
+    const img       = document.querySelector('.image-wrapper img');
+    const container = document.querySelector('.container');
+    const tooltip   = document.getElementById('tooltip');
+    let scale = 1;
+
+    function updateScale() {
+      scale = img.clientWidth / img.naturalWidth;
+    }
+
+    window.addEventListener('load', () => {
+      updateScale();
+    });
+    window.addEventListener('resize', () => {
+      imageMapResize();
+      updateScale();
+    });
+
+    document.querySelectorAll('area').forEach(area => {
+      const [cx, cy, r] = area.coords.split(',').map(Number);
+
+      area.addEventListener('mouseenter', () => {
+        const imgRect       = img.getBoundingClientRect();
+        const containerRect = container.getBoundingClientRect();
+        const x = (cx * scale) + (imgRect.left - containerRect.left);
+        const y = (cy * scale) + (imgRect.top  - containerRect.top);
+
+        tooltip.textContent = area.dataset.title;
+        tooltip.style.display = 'block';
+        tooltip.style.left  = x + 'px';
+        tooltip.style.top   = (y - (r * scale) - 10) + 'px';
+      });
+
+      area.addEventListener('mouseleave', () => {
+        tooltip.style.display = 'none';
+      });
+    });
+  </script>
+</body>
+</html>
