@@ -23,6 +23,24 @@
       border-radius: 16px;
       overflow: hidden;
     }
+    /* شعار تحدي القراءة العربي في أعلى يسار الحاوية */
+    .challenge-logo {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 80px;
+      height: auto;
+      z-index: 10;
+    }
+    /* شعار المدرسة في أعلى يمين الحاوية */
+    .school-logo {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 80px;
+      height: auto;
+      z-index: 10;
+    }
     h1 {
       margin-bottom: 1rem;
     }
@@ -60,7 +78,14 @@
 </head>
 <body>
   <div class="container">
-   
+   <div class="container">
+      <img src="challenge-logo.png"
+      alt="شعار تحدي القراءة العربي"
+      class="challenge-logo">
+ <!-- شعار مدرسة سار الثانوية للبنات -->
+ <img src="school-logo.jpeg"
+      alt="شعار مدرسة سار الثانوية للبنات"
+      class="school-logo">
 
     <!-- مقدمة النص -->
     <div class="intro-text">
